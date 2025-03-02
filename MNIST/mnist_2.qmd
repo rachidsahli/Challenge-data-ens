@@ -1,0 +1,28 @@
+---
+title: "Classification d’images MNIST-2 et MNIST-10"
+description: "Les chiffres manuscrits sont faciles à reconnaître pour un humain, mais comment apprendre à une machine à les distinguer ?"
+lang : fr
+date: 22 february 2025
+categories: ["Python","Machine learning"]
+toc: true
+image: image_blog/mnist_2.png
+page-layout: article
+
+jupyter: python3
+---
+
+# Introduction
+
+Les chiffres manuscrits sont faciles à reconnaître pour un humain, mais comment apprendre à une machine à les distinguer ? Nous allons construire un algorithme capable de reconnaître les chiffres 2 et 7 à partir d'images issues du jeu de données [MNIST](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_MNIST). Cette base de données contient des images de chiffres écrits à la main. La reconnaissance de l'écriture manuscrite est un problème difficile et constitue un bon test pour les algorithmes d'apprentissage.
+
+Nous introduisons ici quelques notions afin de faciliter la compréhension des prochaines étapes.
+
+::: {.callout-note title="Dimension" appearance="minimal" collapse=True}
+Une dimension est une **direction indépendante** dans laquelle un objet peut se déplacer dans l'espace. Par exemple, un espace de dimension 1 correspond à une droite : un objet ne peut se déplacer que dans deux sens opposés (avant ou arrière) sans en sortir. Dans un espace de dimension 2, comme un plan, il peut se déplacer selon deux directions (longueur et largeur), et ainsi de suite pour les dimensions supérieures.
+
+[![Exemple dimension](image_mnist/dimension.png){fig-align="center" width="500"}](https://www.has.org.nz/article-dimensions)
+:::
+
+::: {.callout-note title="Pixel" appearance="minimal" collapse=True}
+
+:::
