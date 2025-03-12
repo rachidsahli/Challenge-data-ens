@@ -15,7 +15,7 @@ import matplotlib.patches as mpatches
 #from scipy.spatial import Voronoi, voronoi_plot_2d
 import pandas as pd
 
-from utilitaires_common import *
+from utilitaires.utilitaires_common import *
 
 plt.rcParams['figure.dpi'] = 200
 
