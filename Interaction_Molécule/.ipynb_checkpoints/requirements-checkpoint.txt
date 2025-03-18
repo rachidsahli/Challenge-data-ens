@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+seaborn
+py3Dmol
+rdkit 
+scikit-learn
+xgboost
